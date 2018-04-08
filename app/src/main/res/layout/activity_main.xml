@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.maris.cal_ip.MainActivity">
+    tools:context="com.example.maris.cal_ip.MainActivity"
+    android:gravity="center_vertical">
 
     <LinearLayout
         android:id="@+id/LL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="2dp">
 
         <TextView
             android:id="@+id/IP"
@@ -38,7 +39,7 @@
         android:id="@+id/LL2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="15dp"
         android:layout_marginHorizontal="15dp">
 
         <EditText
@@ -50,7 +51,7 @@
             android:inputType="numberDecimal"
             android:digits="0123456789."
             android:maxLength="15"
-            android:hint="@string/hint_198_168_0_0"
+            android:hint="@string/hint_192_168_0_0"
             android:textAlignment="center"
             />
 
@@ -226,7 +227,6 @@
         android:layout_below="@+id/LL6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginHorizontal="30dp">
 
         <Button

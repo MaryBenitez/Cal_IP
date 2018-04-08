@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Calcular IP</string>
     <string name="IP">IP</string>
-    <string name="hint_198_168_0_0">198.168.0.0</string>
+    <string name="hint_192_168_0_0">192.168.0.0</string>
     <string name="pleca">/</string>
     <string name="mascara">MASCARA</string>
     <string name="N_mask">24</string>
