@@ -11,5 +11,5 @@
     <string name="cantidad_de_host">Cantidad de Host</string>
     <string name="parte_de_host">Parte de Host</string>
     <string name="calcular">Calcular</string>
-    <string name="borrar">Borrar</string>
+    <string name="borrar">borrar</string>
 </resources>

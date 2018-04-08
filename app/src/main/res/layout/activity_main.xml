@@ -137,7 +137,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@id/LL3"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp">
 
         <TextView
             android:id="@+id/cant_host"
@@ -226,7 +227,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="30dp">
 
         <Button
@@ -234,24 +234,26 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/calcular"
+            android:textAlignment="center"
             android:layout_below="@+id/LL6"
             android:layout_marginTop="20dp"
-            android:layout_centerHorizontal="true"
             android:background="#0174DF"
             android:textColor="#ffffff"
-            android:onClick="datosIP"/>
+            android:onClick="datosIP"
+            android:layout_marginHorizontal="10dp"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Borrar"
+            android:text="@string/borrar"
+            android:textAlignment="center"
             android:layout_below="@+id/LL6"
             android:layout_marginTop="20dp"
-            android:layout_centerHorizontal="true"
-            android:background="#0174DF"
+            android:background="#2E9AFE"
             android:textColor="#ffffff"
-            android:onClick="reset"/>
+            android:onClick="reset"
+            android:layout_marginRight="10dp"/>
 
     </LinearLayout>
 
