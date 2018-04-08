@@ -228,9 +228,8 @@
         android:gravity="center">
 
         <Button
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="@string/calcular"
             android:layout_below="@+id/LL6"
             android:layout_marginTop="20dp"
@@ -240,9 +239,8 @@
             android:onClick="datosIP"/>
 
         <Button
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="@string/calcular"
             android:layout_below="@+id/LL6"
             android:layout_marginTop="20dp"
