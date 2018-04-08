@@ -69,7 +69,16 @@ public class MainActivity extends AppCompatActivity {
         return str_num_ip;
     }
 
-
+    public void reset(View v){
+        ip.setText("");
+        ip.requestFocus();
+        mask.setText("");
+        netid.setText("");
+        broad.setText("");
+        can_h.setText("");
+        part_r.setText("");
+        part_h.setText("");
+    }
 
 
 }

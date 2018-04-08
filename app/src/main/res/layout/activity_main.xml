@@ -238,6 +238,17 @@
             android:textColor="#ffffff"
             android:onClick="datosIP"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:layout_below="@+id/LL6"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="#0174DF"
+            android:textColor="#ffffff"
+            android:onClick="reset"/>
+
     </LinearLayout>
 
 
