@@ -225,11 +225,14 @@
         android:layout_below="@+id/LL6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/calcular"
             android:layout_below="@+id/LL6"
             android:layout_marginTop="20dp"
@@ -239,9 +242,10 @@
             android:onClick="datosIP"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/calcular"
+            android:layout_weight="1"
+            android:text="Borrar"
             android:layout_below="@+id/LL6"
             android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"
