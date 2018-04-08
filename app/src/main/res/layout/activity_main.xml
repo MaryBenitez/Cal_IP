@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maris.cal_ip.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/IP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/IP"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/mask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/mascara"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginHorizontal="15dp">
+
+        <EditText
+            android:id="@+id/editIP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:ems="8"
+            android:inputType="numberDecimal"
+            android:digits="0123456789."
+            android:maxLength="15"
+            android:hint="@string/hint_198_168_0_0"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/pleca"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/pleca"
+            android:textSize="35dp"
+
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/editmask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="8"
+            android:inputType="numberDecimal"
+            android:digits="0123456789."
+            android:maxLength="15"
+            android:hint="@string/N_mask"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:layout_below="@+id/LL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/netid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/net_id"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/editNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:digits="0123456789."
+            android:maxLength="15"
+            android:textAlignment="center"
+            android:enabled="false"
+            android:layout_marginHorizontal="10dp"/>
+
+        <TextView
+            android:id="@+id/Broadcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/broadcast"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/editBroad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:digits="0123456789."
+            android:maxLength="15"
+            android:textAlignment="center"
+            android:enabled="false"
+            android:layout_marginHorizontal="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LL3"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/cant_host"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cantidad_de_host"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/part_red"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/parte_de_red"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LL4"
+        android:layout_marginHorizontal="15dp">
+
+        <EditText
+            android:id="@+id/edithost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="8"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/editred"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="8"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL6"
+        android:layout_below="@+id/LL5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp">
+
+        <TextView
+            android:id="@+id/part_host"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/parte_de_host"
+            android:textSize="20dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editpart_host"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="8"
+            android:inputType="numberDecimal"
+            android:enabled="false"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LL7"
+        android:layout_below="@+id/LL6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:layout_below="@+id/LL6"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="#0174DF"
+            android:textColor="#ffffff"
+            android:onClick="datosIP"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

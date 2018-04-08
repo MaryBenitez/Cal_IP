@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calcular IP</string>
+    <string name="IP">IP</string>
+    <string name="hint_198_168_0_0">198.168.0.0</string>
+    <string name="pleca">/</string>
+    <string name="mascara">MASCARA</string>
+    <string name="N_mask">24</string>
+    <string name="net_id">Net ID</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="parte_de_red">Parte de Red</string>
+    <string name="cantidad_de_host">Cantidad de Host</string>
+    <string name="parte_de_host">Parte de Host</string>
+    <string name="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
+</resources>
